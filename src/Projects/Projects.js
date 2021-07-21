@@ -25,6 +25,9 @@ const Projects = () => {
                         online multiplayer pong game with added power ups to change the dynamics of the matches.</li>
                     <li><b>AIPM-Think (ReactJS): </b> Application used to show robot telemtry data (temperature, torque, and
                     position) - used a 3rd party graphing library.</li>
+                    <li><b>React-AIPM-Admin-Console (ReactJS): </b> Application developed to manage Yaskawa 
+                        and Kuka robot operations (turning on/off robots, turning on/off image processing, etc. 
+                        Created a login system using cookies and sessions in the back-end.</li>
                 </ul>
                 <div> <a href="https://github.com/jdad24">Link to my personal Github</a></div>
                 <div><b><a href={Resume} >Click to download my resume!</a></b></div>

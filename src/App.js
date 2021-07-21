@@ -14,7 +14,7 @@ function App() {
           <Header />
         </div>
         <Switch>
-          <Route exact path={["/", "/home"]}><div><Home className="home"/></div></Route>
+          <Route exact path={["/", "/home", "/jdweb"]}><div><Home className="home"/></div></Route>
           <Route exact path="/projects"><div><Projects className="projects"/></div></Route>
           <Route exact path="/education"><div><Education className="education"/></div></Route>
         </Switch>
