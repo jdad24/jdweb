@@ -1,6 +1,6 @@
 {
-  "name": "jd-web-resume",
-  "homepage": "https://jdad24.github.io/jd-web-resume",
+  "name": "jdweb",
+  "homepage": "https://jdad24.github.io/jdweb",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
