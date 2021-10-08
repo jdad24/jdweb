@@ -16,7 +16,7 @@ const Education = () => {
                 <img src={UTA}/>
             </div>
 
-            <div><b>Contact Information</b></div>
+            <div className="title-container"><b>Contact Information</b></div>
             <ul>
                 <li>Phone: 817-914-1866</li>
                 <li>Email: joshuadadson@yahoo.com</li>

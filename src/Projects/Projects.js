@@ -5,10 +5,16 @@ const Projects = () => {
     return (
         <div className="projects-container">
             <div>
-                <div className="title-container">Notable Programming Languages</div>
+                <div className="title-container">Notable Skills</div>
                 <ul>
                     <li>Javascript - ReactJS and NodeJS</li>
-                    <li>Swift</li>
+                    <li>Swift and XCode - mostly familiar with UIKit but 
+                        have educational experience with SwiftUI
+                    </li>
+                    <li>Cloud Services</li>
+                    <li>Docker, Kubernetes, and Redhat Openshift - 
+                        image and container management
+                    </li>
                 </ul>
 
                 <div className="title-container">Notable Projects</div>
