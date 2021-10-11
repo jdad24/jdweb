@@ -9,7 +9,7 @@ const Header = (props) => {
         <div className="header-container">
             <Link className="link-container" to="/home">Home</Link>
             <Link className="link-container" to="/projects">Skills and Projects</Link>
-            <Link className="link-container" to="/education">Education/Contact</Link>
+            <Link className="link-container" to="/education">Education and Contact Information</Link>
 
 
             {/* <Nav
