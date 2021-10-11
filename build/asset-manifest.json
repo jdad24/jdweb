@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jdweb/static/css/main.dab6941b.chunk.css",
+    "main.js": "/jdweb/static/js/main.9f24f14f.chunk.js",
+    "main.js.map": "/jdweb/static/js/main.9f24f14f.chunk.js.map",
+    "runtime-main.js": "/jdweb/static/js/runtime-main.04d58603.js",
+    "runtime-main.js.map": "/jdweb/static/js/runtime-main.04d58603.js.map",
+    "static/js/2.c098e858.chunk.js": "/jdweb/static/js/2.c098e858.chunk.js",
+    "static/js/2.c098e858.chunk.js.map": "/jdweb/static/js/2.c098e858.chunk.js.map",
+    "index.html": "/jdweb/index.html",
+    "static/css/main.dab6941b.chunk.css.map": "/jdweb/static/css/main.dab6941b.chunk.css.map",
+    "static/js/2.c098e858.chunk.js.LICENSE.txt": "/jdweb/static/js/2.c098e858.chunk.js.LICENSE.txt",
+    "static/media/Joshua.4b943de4.png": "/jdweb/static/media/Joshua.4b943de4.png",
+    "static/media/Resume.cf000851.docx": "/jdweb/static/media/Resume.cf000851.docx"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04d58603.js",
+    "static/js/2.c098e858.chunk.js",
+    "static/css/main.dab6941b.chunk.css",
+    "static/js/main.9f24f14f.chunk.js"
+  ]
+}
