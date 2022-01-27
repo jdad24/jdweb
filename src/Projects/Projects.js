@@ -34,6 +34,7 @@ const Projects = () => {
                     <li><b>React-AIPM-Admin-Console (ReactJS): </b> Application developed to manage Yaskawa 
                         and Kuka robot operations (turning on/off robots, turning on/off image processing, etc. 
                         Created a login system using cookies and sessions in the back-end.</li>
+                    <li><b>2D Unity Games (C# and Unity)</b></li>
                 </ul>
                 <div> <a href="https://github.com/jdad24">Link to my personal Github</a></div>
                 <div><b><a href={Resume} >Click to download my resume!</a></b></div>

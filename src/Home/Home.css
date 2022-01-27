@@ -22,7 +22,17 @@
     width: 100%;
 }
 
+.intro-container {
+    font-weight:bold;
+    width: 40%;
+    position: relative;
+    background-color: white;
+    animation-name: intro-animation;
+    animation-duration: 3s;
+}
+
 .name-container {
+    position: relative;
     padding-top: 30px;
     padding-left: 50px;
     display: flex;
