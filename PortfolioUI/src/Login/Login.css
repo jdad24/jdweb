@@ -1,0 +1,21 @@
+.login-container {
+    background-color: white;
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    left: 25%;
+    top: 20%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    /* align-items: center; */
+}
+
+/* .title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+} */
