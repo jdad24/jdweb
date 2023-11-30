@@ -2,7 +2,6 @@
     /* background-color: rgb(90, 106, 177); */
     height: 100%;
     width: 100%;
-
 }
 
 .image {
@@ -41,9 +40,6 @@
     font-weight: bold;
     animation-name: intro-animation;
     animation-duration: 3s;
-    
-    /* border-width: 10px;
-    border-style: dashed; */
 }
 
 @keyframes intro-animation {

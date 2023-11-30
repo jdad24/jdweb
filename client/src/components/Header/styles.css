@@ -1,12 +1,10 @@
 .header-container {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: green;
-  
 }
 
 .link-container {
