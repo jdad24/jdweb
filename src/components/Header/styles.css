@@ -2,17 +2,36 @@
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: row;
+}
+
+.link-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.link-container {
+.link {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 16px;
   transition: font-size 1s
 }
 
-.link-container:hover {
+.link:hover {
   font-size: 20px;
+}
+
+#name {
+  height: 100%;
+  width: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 20px;
 }

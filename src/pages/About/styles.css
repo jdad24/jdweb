@@ -1,0 +1,71 @@
+@keyframes intro-animation {
+  /* from {opacity: 0; transform: scale(0%);}
+    to {opacity: 1; transform: scale(100%);} */
+
+  from {
+    margin-left: -800px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.about-container {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 15px;
+  padding-left: 60px;
+  animation-name: intro-animation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.item-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.item-description {
+  font-size: 16px;
+  width: 800px;
+  padding-left: 40px;
+}
+
+.info-section {
+  margin-bottom: 50px;
+  padding-left: 40px;
+}
+
+.section-title {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 30px;
+  /* padding-left: 30px; */
+  animation-name: opacity;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}

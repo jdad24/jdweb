@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(rgb(200,200,200), rgb(240, 240, 240));
+  /* background-image: linear-gradient(rgb(200,200,200), rgb(240, 240, 240)); */
+  background-color: black;
+  color: white;
 }
 
 code {

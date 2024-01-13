@@ -9,16 +9,19 @@
 }
 
 .header {
-  height: 75px;
+  height: 55px;
   width: 100%;
   position: fixed;
   left: 0;
   top: 0;
-  background-image: linear-gradient(rgb(238, 237, 237), rgb(139, 139, 139));
+  border-bottom: 1px solid white;
+  z-index: 999;
+  background-color: black;
+  /* background-image: linear-gradient(rgb(238, 237, 237), rgb(139, 139, 139)); */
 }
 
 .page-container {
   height: 100%;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 55px;
 }

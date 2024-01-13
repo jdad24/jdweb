@@ -1,18 +1,50 @@
-import './styles.css'
-// import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import "./styles.css";
+import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = (props) => {
-    // const [activeKey, setActiveKey] = useState('/home')
+  // const [activeKey, setActiveKey] = useState('/home')
+  const [state, setState] = useState({});
+  const location = useLocation();
+  console.log(location);
 
-    return (
-        <div className="header-container">
-            <Link className="link-container" to="/home">Home</Link>
-            <Link className="link-container" to="/projects">Skills and Projects</Link>
-            <Link className="link-container" to="/education">Education and Contact Information</Link>
+  useEffect(() => {
+    setState((prevState) => ({ ...prevState, path: location.pathname }));
+  }, []);
 
-
-            {/* <Nav
+  return (
+    <div className="header-container">
+      <div id="name">JD</div>
+      <div className="link-container">
+        <Link
+          className="link"
+          to="/about"
+          style={{
+            color: location.pathname == "/about" ? "blue" : "white",
+          }}
+        >
+          What I Do
+        </Link>
+        <Link
+          className="link"
+          to="/portfolio"
+          style={{
+            color: location.pathname == "/portfolio" ? "blue" : "white",
+          }}
+        >
+          Portfolio
+        </Link>
+        <Link
+          className="link"
+          to="/contact"
+          style={{
+            color: location.pathname == "/contact" ? "blue" : "white",
+          }}
+        >
+          Contact
+        </Link>
+      </div>
+      {/* <Nav
             fill
             // variant="tabs"
             // className="justify-content-center"
@@ -28,8 +60,8 @@ const Header = (props) => {
                 <Nav.Link href="/filler2">Filler2</Nav.Link>
             </Nav.Item>
         </Nav> */}
-        </div>
-    )
-}
+    </div>
+  );
+};
 
 export default Header;
