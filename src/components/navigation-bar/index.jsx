@@ -21,7 +21,7 @@ const NavigationBar = ({ items = [] }) => {
 
     return (
         <div className="nav-container">
-            <div className='nav-title'>My Portfolio</div>
+            <div className='nav-title'>JD</div>
             {renderItems(items)}
         </div>
     )

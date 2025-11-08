@@ -2,23 +2,27 @@
     display: flex;
     flex-direction: column;
 
-    .title {
-        font-weight: bold;
-        font-size: 36px;
-        padding: 30px 250px 10px 250px;
-    }
+    .header {
 
-    .subtitle {
-        font-size: 16px;
-        padding: 0px 250px;
-    }
-
-    .section-1 {
+        background-color: rgb(55, 55, 55);
+        color: white;
         padding: 30px 250px 30px 250px;
+
+        .title {
+            font-weight: bold;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
 
         .stack-title {
             font-size: 16px;
-            margin-bottom: 5px;
+            font-weight: bold;
+            margin-bottom: 10px;
         }
 
         .stack-container {
@@ -27,9 +31,14 @@
             gap: 15px;
 
             .stack-item {
+                font-size: 12px;
+                font-weight: bold;
                 width: 80px;
                 height: 20px;
-                text-align: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
                 border-radius: 5px;
                 color: white;
                 background-color: rgb(82, 82, 235);
@@ -37,8 +46,10 @@
         }
     }
 
-    .section-2 {
+    .main-section {
         padding: 30px 250px;
+        // background-color: rgb(55, 55, 55);
+        // color: white;
 
         .job {
             padding-bottom: 30px;

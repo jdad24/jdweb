@@ -1,7 +1,7 @@
 import './index.scss'
 
 const Experience = () => {
-    const stackList = ['React.js', 'Node.js', 'Swift', 'JavaScript', 'Python']
+    const stackList = ['React.js', 'Node.js', 'Swift', 'JavaScript', 'Python', 'SQL']
     const jobHistory = [
         {
             title: "Lead ReactJS UI Developer",
@@ -52,13 +52,13 @@ const Experience = () => {
     }
     return (
         <div className="experience-container">
-            <div className="title">Experience</div>
-            <div className='subtitle'>6+ years building scalable web and iOS applications </div>
-            <div className='section-1'>
+            <div className='header'>
+                <div className="title">Experience</div>
+                <div className='subtitle'>6+ years building scalable web and iOS applications </div>
                 <div className='stack-title'>Primary Stack</div>
                 {renderStackItems(stackList)}
             </div>
-            <div className='section-2'>
+            <div className='main-section'>
                 {renderJobs(jobHistory)}
             </div>
         </div>
