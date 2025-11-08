@@ -11,7 +11,7 @@ const About = () => {
                 </p>
                 <p>
                     I began my education at Baylor Univesity, majoring in Management Information Systems and graduating in 2013. After graduation, I decided
-                    to pursue my Master's in Computer Science, where I graduated in 2019.
+                    to pursue my Master's in Computer Science at the University of Texas in Arlington, where I graduated in 2019.
                 </p>
             </div>
             <div className='interests-container'>

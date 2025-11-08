@@ -24,16 +24,23 @@
         align-items: left;
         padding: 10px;
 
-        .nav-items {
+        .nav-item {
             width: auto;
             height: 50px;
             font-size: 20px;
             border-radius: 5px;
 
             display: flex;
-            flex-direction: column;
-            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            // justify-content: center;
             padding: 5px;
+
+            img {
+                width: 20px;
+                height: auto;
+                margin-right: 10px;
+            }
 
             &:hover {
                 background-color: rgb(62, 111, 235);

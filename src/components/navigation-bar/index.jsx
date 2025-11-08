@@ -9,7 +9,10 @@ const NavigationBar = ({ items = [] }) => {
             <div className='nav-items-container'>
                 {
                     items.map((item, index) =>
-                        <div key={index} className='nav-items' onClick={() => navigate(`/${String(item).toLowerCase()}`)}>{item}</div>
+                        <div key={index} className='nav-item' onClick={() => navigate(`/${String(item.name).toLowerCase()}`)}>
+                            <img src={item.picture} />
+                            {item.name}
+                        </div>
                     )
                 }
             </div>

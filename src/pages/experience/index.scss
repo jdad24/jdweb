@@ -4,7 +4,7 @@
 
     .title {
         font-weight: bold;
-        font-size: 30px;
+        font-size: 36px;
         padding: 30px 250px 10px 250px;
     }
 
@@ -14,10 +14,11 @@
     }
 
     .section-1 {
-        padding: 30px 250px;
+        padding: 30px 250px 30px 250px;
 
         .stack-title {
             font-size: 16px;
+            margin-bottom: 5px;
         }
 
         .stack-container {
@@ -38,6 +39,30 @@
 
     .section-2 {
         padding: 30px 250px;
+
+        .job {
+            padding-bottom: 30px;
+
+            .job-title {
+                font-weight: bold;
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+
+            .company {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+
+            .date {
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+
+            .description {
+                font-size: 12px;
+            }
+        }
     }
 
 }

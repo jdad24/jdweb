@@ -4,11 +4,33 @@ import { Routes, Route } from 'react-router';
 import About from '../pages/about';
 import Projects from '../pages/projects';
 import Experience from '../pages/experience';
+import Home from '../assets/home.svg'
+import Folder from '../assets/folder.svg'
+import Phone from '../assets/phone.svg'
+import Asterick from '../assets/asterick.svg'
 
 function App() {
+  const navItems = [
+    {
+      name: "About",
+      picture: Home
+    },
+    {
+      name: "Experience",
+      picture: Asterick
+    },
+    {
+      name: "Projects",
+      picture: Folder
+    },
+    {
+      name: "Contact",
+      picture: Phone
+    }
+  ]
   return (
     <div className="app-container">
-      <NavigationBar items={['About', 'Experience', 'Projects', 'Contact']} />
+      <NavigationBar items={navItems} />
       <div className='page-content'>
         <Routes>
           <Route path='/' element={<About />} />
