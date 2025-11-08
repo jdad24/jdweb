@@ -13,11 +13,31 @@
         padding: 0px 250px;
     }
 
-    .tech-stack-container {
+    .section-1 {
+        padding: 30px 250px;
+
+        .stack-title {
+            font-size: 16px;
+        }
+
+        .stack-container {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+
+            .stack-item {
+                width: 80px;
+                height: 20px;
+                text-align: center;
+                border-radius: 5px;
+                color: white;
+                background-color: rgb(82, 82, 235);
+            }
+        }
+    }
+
+    .section-2 {
         padding: 30px 250px;
     }
 
-    .job-history-container {
-        padding: 30px 250px;
-    }
 }
