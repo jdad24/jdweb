@@ -1,0 +1,18 @@
+ .projects-container {
+     color: black;
+     background-color: white;
+     padding: 30px 250px;
+
+     .title {
+         font-weight: bold;
+         font-size: 30px;
+     }
+
+     .project {
+         padding: 50px 0;
+
+         .project-name {
+             font-size: 24px;
+         }
+     }
+ }

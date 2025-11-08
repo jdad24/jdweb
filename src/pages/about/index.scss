@@ -1,0 +1,25 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+
+    .background-container {
+        color: white;
+        background-color: rgb(55, 55, 55);
+        padding: 30px 250px;
+
+        .title {
+            font-weight: bold;
+            font-size: 30px;
+        }
+    }
+
+    .interests-container {
+        color: black;
+        padding: 30px 250px;
+
+        .title {
+            font-weight: bold;
+            font-size: 30px;
+        }
+    }
+}

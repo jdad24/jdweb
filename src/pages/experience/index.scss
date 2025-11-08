@@ -1,0 +1,23 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        font-weight: bold;
+        font-size: 30px;
+        padding: 30px 250px 10px 250px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+        padding: 0px 250px;
+    }
+
+    .tech-stack-container {
+        padding: 30px 250px;
+    }
+
+    .job-history-container {
+        padding: 30px 250px;
+    }
+}
