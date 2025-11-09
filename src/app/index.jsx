@@ -12,16 +12,16 @@ import Asterick from '../assets/asterick.svg'
 function App() {
   const navItems = [
     {
-      name: "About",
-      picture: Home
-    },
-    {
       name: "Experience",
       picture: Asterick
     },
     {
       name: "Projects",
       picture: Folder
+    },
+    {
+      name: "About",
+      picture: Home
     },
     {
       name: "Contact",

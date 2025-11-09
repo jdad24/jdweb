@@ -1,31 +1,51 @@
 import './index.scss'
+import { useState } from 'react'
 
 const Experience = () => {
+    const [overflowFlag, setOverflowFlag] = useState(false)
     const stackList = ['React.js', 'Node.js', 'Swift', 'JavaScript', 'Python', 'SQL']
     const jobHistory = [
         {
             title: "Lead ReactJS UI Developer",
             company: "IBM",
-            date: "February 2023 - current",
-            description: "Lead React.js developer for internal web application handling IBM cloud resource data collection and management."
+            date: "February 2023 - Current",
+            description: <ul>
+                <li>Lead the development of a web dashboard application focused on giving operational team users efficient access to incident tracking data and troubleshooting operations.</li>
+                <li>Manage and enhance enterprise level web application giving access to details on various cloud resources.</li>
+                <li>Implement Docker for containerized application deployment on RedHat OpenShift and IBM Cloud VSIs.</li>
+                <li>Integrate microservice architecture for enhanced code maintainability and debugging.</li>
+                <li>Maintain and update SQL databases handling application data.</li>
+                <li>Implement SSL/TLS for user authentication system.</li>
+            </ul>
         },
         {
             title: "Frontend Developer",
             company: "IBM",
-            date: 'August 2021 - February 2023',
-            description: "Insert description"
+            date: 'March 2022 - February 2023',
+            description: <ul>
+                <li>Developed and managed an internal web dashboard used for cloud resource metrics analysis and general resource specifications </li>
+                <li>Utilized GraphQL to query data for display in the dashboard</li>
+                <li>Developed mainly in React.js and Node.js</li>
+            </ul>
         },
         {
             title: "Cloud Engineer",
             company: "IBM",
-            date: 'October 2020 - August 2021',
-            description: "Insert description"
+            date: 'January 2021 - March 2022',
+            description: <ul>
+                <li>Communicated and consulted with clients via a presales approach on IBM products, discussing how business needs would be met.</li>
+                <li>Completed Redhat Openshift certification training</li>
+            </ul>
         },
         {
             title: "IT Specialist",
             company: "IBM",
             date: 'August 2019 - June 2020',
-            description: "Insert description"
+            description: <ul>
+                <li>Led the development of an iOS Swift Mobile App serving as another entry point to our sales demos. </li>
+                <li>Developed a web dashboard displaying the real-time telemetry data of our lab robots</li>
+                <li>Developed and maintained a ReactJS web application displaying our sales catalog.</li>
+            </ul>
         }
     ]
     const renderStackItems = (items) => {
