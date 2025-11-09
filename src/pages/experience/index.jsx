@@ -77,12 +77,20 @@ const Experience = () => {
                 <div className='subtitle'>6+ years building scalable web and iOS applications </div>
                 <div className='stack-title'>Primary Stack</div>
                 {renderStackItems(stackList)}
+                <div className='resume' onClick={() => downloadResume()}>Download Resume</div>
             </div>
             <div className='main-section'>
                 {renderJobs(jobHistory)}
             </div>
         </div>
     )
+}
+
+const downloadResume = () => {
+    let link = document.createElement('a')
+    link.download = "Resume"
+    link.href = 'src/assets/resume.docx'
+    link.click()
 }
 
 export default Experience;
