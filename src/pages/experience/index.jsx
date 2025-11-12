@@ -1,8 +1,8 @@
 import './index.scss'
-import { useState } from 'react'
+// import { useState } from 'react'
 
 const Experience = () => {
-    const [overflowFlag, setOverflowFlag] = useState(false)
+    // const [overflowFlag, setOverflowFlag] = useState(false)
     const stackList = ['React.js', 'Node.js', 'Swift', 'JavaScript', 'Python', 'SQL']
     const jobHistory = [
         {
@@ -82,6 +82,7 @@ const Experience = () => {
             <div className='main-section'>
                 {renderJobs(jobHistory)}
             </div>
+            {/* {overflowFlag ? <div className='overflow-symbol'>Overflow</div> : null} */}
         </div>
     )
 }

@@ -1,25 +1,28 @@
 import './index.scss';
+import Baylor from '../../assets/Baylor.jpeg'
+import UTA from '../../assets/UTA-dark.png'
+import Kobe from '../../assets/kobe.gif'
+import Finance from '../../assets/finance.jpeg'
 
 const About = () => {
     return (
         <div className="about-container">
             <div className='background-container'>
-                <div className='title'>Profile</div>
+                <div className='title'>About Me</div>
                 <p>
-                    I have a unique background in fullstack software development, most particularly in web development and iOS Mobile Application Development.
-                    I deeply enjoy designing applications and having them come to life, something I have done extensively throughout my career.
+                    I began my education at Baylor Univesity, graduating in 2013 with a major in Management Information Systems. After graduation, I decided
+                    to pursue my Master's in Computer Science at the University of Texas in Arlington, where I graduated in 2019. During my Master's,
+                    I specialized in Articial Intelligence, Databases, and Networking.
                 </p>
                 <p>
-                    I began my education at Baylor Univesity, majoring in Management Information Systems and graduating in 2013. After graduation, I decided
-                    to pursue my Master's in Computer Science at the University of Texas in Arlington, where I graduated in 2019.
+                    In my free time, I enjoy working on a side project, keeping up with financial markets, playing basketball, or watching a good show/movie.
                 </p>
             </div>
-            <div className='interests-container'>
-                <div className='title'>Interests</div>
-                <div className='interest'>Basketball</div>
-                <div className='interest'>Game Dev</div>
-                <div className='interest'>iOS Dev</div>
-                <div className='interest'>Artificial Intelligence</div>
+            <div className='img-container'>
+                <img className='interest-img' src={Baylor} />
+                <img className='interest-img' src={UTA} />
+                <img className='interest-img' src={Kobe} />
+                <img className='interest-img' src={Finance} />
             </div>
         </div>
     )
