@@ -16,10 +16,10 @@ function App() {
       name: "Experience",
       picture: Asterick
     },
-    {
-      name: "Projects",
-      picture: Folder
-    },
+    // {
+    //   name: "Projects",
+    //   picture: Folder
+    // },
     {
       name: "About",
       picture: Home
