@@ -34,11 +34,11 @@ function App() {
       <NavigationBar items={navItems} />
       <div className='page-content'>
         <Routes>
-          <Route path='/' element={<About />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/' element={<Experience />} />
+          <Route path='/jdweb/experience' element={<Experience />} />
+          <Route path='/jdweb/about' element={<About />} />
           {/* <Route path='/projects' element={<Projects />} /> */}
-          <Route path='/experience' element={<Experience />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/jdweb/contact' element={<Contact />} />
         </Routes>
       </div>
     </div>
