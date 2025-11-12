@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router';
 import About from '../pages/about';
 import Projects from '../pages/projects';
 import Experience from '../pages/experience';
+import Contact from '../pages/contact';
 import Home from '../assets/home.svg'
 import Folder from '../assets/folder.svg'
 import Phone from '../assets/phone.svg'
@@ -35,8 +36,9 @@ function App() {
         <Routes>
           <Route path='/' element={<About />} />
           <Route path='/about' element={<About />} />
-          <Route path='/projects' element={<Projects />} />
+          {/* <Route path='/projects' element={<Projects />} /> */}
           <Route path='/experience' element={<Experience />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </div>
     </div>
